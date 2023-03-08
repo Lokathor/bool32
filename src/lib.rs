@@ -21,7 +21,7 @@
 /// For readability, the type formats with [Debug](core::fmt::Debug) and
 /// [Display](core::fmt::Display) just like a [bool], showing as either `true`
 /// or `false`.
-#[derive(Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash)]
+#[derive(Clone, Copy, Default, PartialEq, Eq, PartialOrd, Ord, Hash)]
 #[repr(transparent)]
 pub struct Bool32(u32);
 impl Bool32 {
