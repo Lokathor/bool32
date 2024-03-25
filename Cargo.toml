@@ -2,6 +2,6 @@
 name = "bool32"
 description = "A simple 32-bit bool-ish type."
 repository = "https://github.com/Lokathor/bool32"
-version = "0.1.1"
+version = "1.0.0"
 edition = "2021"
 license = "Zlib OR Apache-2.0 OR MIT"
